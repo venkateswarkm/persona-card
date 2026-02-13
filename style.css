@@ -9,11 +9,9 @@
   --shadow: 0 10px 30px rgba(31, 41, 55, 0.10);
 }
 
-
 * {
   box-sizing: border-box;
 }
-
 
 body {
   margin: 0;
@@ -22,14 +20,12 @@ body {
   background: radial-gradient(circle at top, var(--bg), #f7fafc 60%);
 }
 
-
 .page {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   padding: 48px 16px;
 }
-
 
 .persona-card {
   width: 100%;
@@ -42,7 +38,6 @@ body {
   padding: 24px;
 }
 
-
 .header {
   display: flex;
   align-items: center;
@@ -51,7 +46,6 @@ body {
   border-radius: 12px;
   background: linear-gradient(90deg, rgba(44, 111, 183, 0.10), rgba(243, 245, 247, 0.60));
 }
-
 
 .avatar {
   width: 110px;
@@ -62,11 +56,9 @@ body {
   box-shadow: 0 6px 16px rgba(31, 41, 55, 0.12);
 }
 
-
 .header-text {
   flex: 1;
 }
-
 
 .name {
   margin: 0;
@@ -74,13 +66,11 @@ body {
   letter-spacing: 0.2px;
 }
 
-
 .tagline {
   margin: 6px 0 10px 0;
   color: var(--subtext);
   line-height: 1.4;
 }
-
 
 .bio {
   margin: 18px 0 10px 0;
@@ -92,14 +82,11 @@ body {
   border-radius: 12px;
 }
 
-
-/* Two columns */
 .details {
   margin-top: 16px;
   display: flex;
   gap: 16px;
 }
-
 
 .column {
   flex: 1;
@@ -109,7 +96,6 @@ body {
   padding: 14px 14px 10px 14px;
 }
 
-
 .section-title {
   margin: 0 0 10px 0;
   font-size: 1.1rem;
@@ -118,32 +104,26 @@ body {
   padding-bottom: 6px;
 }
 
-
 .list {
   margin: 0;
   padding-left: 18px;
   line-height: 1.55;
 }
 
-
 .list li {
   margin-bottom: 10px;
 }
-
 
 .quote {
   font-style: italic;
   color: #374151;
 }
 
-
-/* Footer */
 .footer {
   margin-top: 16px;
   padding-top: 12px;
   border-top: 1px dashed rgba(31, 41, 55, 0.18);
 }
-
 
 .footer-note {
   margin: 0;
@@ -151,8 +131,6 @@ body {
   font-size: 0.95rem;
 }
 
-
-/* Responsive: stack columns on small screens */
 @media (max-width: 700px) {
   .header {
     flex-direction: column;
@@ -163,7 +141,6 @@ body {
   .details {
     flex-direction: column;
   }
-
 
   .avatar {
     width: 120px;
